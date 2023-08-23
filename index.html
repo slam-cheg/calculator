@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<section class="calculator">
+			<div class="calculator__wrapper">
+				<div class="calculator__main">
+					<div class="calculator__inputs">
+						<div class="calculator__input-wrapper">
+							<label for="radio-width">Ширина навеса по крайним стойкам (м)</label>
+							<div class="calculator__range-track">
+								<input type="range" class="calculator__range" min="3" max="6" step="0.5" id="input-width" />
+                                <div class="calculator__range-steps">
+                                    <div class="range-step">3<div></div></div>
+                                    <div class="range-step">3.5<div></div></div>
+                                    <div class="range-step">4<div></div></div>
+                                    <div class="range-step">4.5<div></div></div>
+                                    <div class="range-step">5<div></div></div>
+                                    <div class="range-step">5.5<div></div></div>
+                                    <div class="range-step">6<div></div></div>
+                                </div>
+							</div>
+						</div>
+						<div class="calculator__input-wrapper">
+							<label for="radio-width">Длина навеса по крайним стойкам (м)</label>
+                            <div class="calculator__range-track">
+                                <input type="range" class="calculator__range" min="2" max="12" step="2" id="input-length"/>
+                                <div class="calculator__range-steps">
+                                    <div class="range-step">2<div></div></div>
+                                    <div class="range-step">4<div></div></div>
+                                    <div class="range-step">6<div></div></div>
+                                    <div class="range-step">8<div></div></div>
+                                    <div class="range-step">10<div></div></div>
+                                    <div class="range-step">12<div></div></div>
+                                </div>
+                            </div>
+						</div>
+						<div class="calculator__input-wrapper">
+							<p class="calculator__radio-title">Выбор кровли</p>
+							<div class="control-group">
+                                <label class="control control-radio">
+                                    Арочная двускатная
+                                        <input class="radio-input" type="radio" name="radio" checked="checked" id="radio-double"/>
+                                    <div class="control_indicator"></div>
+                                    <img src="./images/radio-double.svg" alt="" class="radio-img">
+                                </label>
+                                <label class="control control-radio">
+                                    Арочная односкатная
+                                        <input class="radio-input" type="radio" name="radio" id="radio-single"/>
+                                    <div class="control_indicator"></div>
+                                    <img src="./images/radio-single.svg" alt="" class="radio-img">
+                                </label>
+                            </div>
+						</div>
+					</div>
+					<div class="calculator__prices">
+						<div class="calculator__prices-left">
+							<h3 class="calculator__h3-title">Навес №1</h3>
+							<div class="calculator__parameter-wrapper">
+								<div class="calculator__parameter-value">
+									<p class="calculator__width">Ширина навеса</p>
+									<span class="calculator__width-value" id="parameter-width">3.00м</span>
+								</div>
+								<p class="calculator__parameter-description">(по крайним стойкам)</p>
+							</div>
+							<div class="calculator__parameter-wrapper">
+								<div class="calculator__parameter-value">
+									<p class="calculator__width">Длина навеса</p>
+									<span class="calculator__width-value" id="parameter-length">2.00м</span>
+								</div>
+								<p class="calculator__parameter-description">(по крайним стойкам)</p>
+							</div>
+							<div class="calculator__parameter-wrapper">
+								<div class="calculator__parameter-value">
+									<p class="calculator__width">Ширина навеса</p>
+									<span class="calculator__width-value" id="parameter-width-2">3.40м</span>
+								</div>
+								<p class="calculator__parameter-description">(по кровле)</p>
+							</div>
+							<div class="calculator__parameter-wrapper">
+								<div class="calculator__parameter-value">
+									<p class="calculator__width">Длина навеса</p>
+									<span class="calculator__width-value" id="parameter-length-2">2.10м</span>
+								</div>
+								<p class="calculator__parameter-description">(по кровле)</p>
+							</div>
+							<div class="calculator__parameter-wrapper">
+								<div class="calculator__parameter-value">
+									<p class="calculator__width">Площадь навеса</p>
+									<p class="calculator__width-value" id="parameter-square">7.10м<sup>2</sup></p>
+								</div>
+								<p class="calculator__parameter-description">(по кровле)</p>
+							</div>
+                            <div class="calculator__example-img">
+                                <img id="example-image" src="./images/3_2 двускат.jpeg" alt="">
+                            </div>
+						</div>
+						<div class="calculator__prices-right">
+							<h3 class="calculator__h3-title">Стоимость:</h3>
+							<div class="calculator__price-wrapper">
+								<div class="calculator__price-value">
+									<p class="calculator__price-title">Стоимость каркаса</p>
+									<p class="calculator__price" id="karkas"><span>2000</span> руб.</p>
+								</div>
+							</div>
+							<div class="calculator__price-wrapper">
+								<div class="calculator__price-value">
+									<p class="calculator__price-title">Стоимость поликарбоната</p>
+									<p class="calculator__price" id="polycarbonate"><span>2000</span> руб.</p>
+								</div>
+								<p class="calculator__price-description">с комплектующими</p>
+							</div>
+							<div class="calculator__price-wrapper">
+								<div class="calculator__price-value">
+									<p class="calculator__price-title">Стоимость навеса на складе</p>
+									<p class="calculator__price" id="price-sklad"><span>2000</span> руб.</p>
+								</div>
+							</div>
+							<div class="calculator__price-wrapper">
+								<div class="calculator__price-value">
+									<p class="calculator__price-title">Монтаж</p>
+									<p class="calculator__price" id="montage"><span>2000</span> руб.</p>
+								</div>
+							</div>
+							<div class="calculator__price-wrapper">
+								<div class="calculator__price-value">
+									<p class="calculator__price-title">Доставка в пределах МКАД</p>
+									<p class="calculator__price" id="delivery"><span>2000</span> руб.</p>
+								</div>
+							</div>
+							<div class="calculator__price-wrapper calculator__price-wrapper_margin">
+								<div class="calculator__price-value">
+									<p class="calculator__price-title">Монтаж пятки</p>
+									<p class="calculator__price">бесплатно</p>
+								</div>
+							</div>
+							<span class="calculator__price-separator"></span>
+							<div class="calculator__price-wrapper calculator__price-wrapper_total">
+								<div class="calculator__price-value">
+									<p class="calculator__price-title">Стоимость с монтажом</p>
+									<p class="calculator__price" id="total-price"><span>2000</span> руб.</p>
+								</div>
+								<p class="calculator__price-description">и доставкой в пределах МКАД</p>
+							</div>
+							<a href="#" class="calculator__button">ЗАКАЗАТЬ</a>
+						</div>
+					</div>
+				</div>
+				<div class="calculator__additional"></div>
+			</div>
+		</section>
+		<script src="./index.js"></script>
+	</body>
+</html>
