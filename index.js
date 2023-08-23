@@ -17,6 +17,7 @@ const priceTotal = document.querySelector("#total-price");
 const exampleImage = document.querySelector("#example-image");
 const submitButton = document.querySelector(".calculator__button");
 const inputsAll = document.querySelectorAll(".input");
+const optionsContainers = document.querySelectorAll(".calculator__option-wrapper");
 
 const variants = {
 	single: {
@@ -1201,6 +1202,23 @@ const variants = {
 	},
 };
 
+optionsContainers.forEach((container) => {
+	const priceText = container.querySelector(".calculator__option-price");
+	const price = Number(priceText.dataSet);
+	const minusButton = container.querySelector(".minus");
+	const quantityText = container.querySelector(".quantity");
+	const plusButton = container.querySelector(".plus");
+
+	minusButton.addEventListener("click", () => {
+		if (quantityText.textContent > 0) {
+			quantityText.textContent = Number(quantityText.textContent) - 1;
+		}
+	});
+	plusButton.addEventListener("click", () => {
+		quantityText.textContent = Number(quantityText.textContent) + 1;
+	});
+});
+
 inputsAll.forEach((input) => {
 	input.addEventListener("change", calculator);
 });
@@ -1241,3 +1259,11 @@ function calculator() {
 }
 
 calculator();
+
+// function setCartItems() {
+// 	if(localStorage.getItem("tcart")) {
+// 		customCartCounter.forEach(cart => {
+// 			cart.firstElementChild.textContent = JSON.parse(localStorage.getItem("tcart")).total;
+// 		})
+// 	}
+// }
