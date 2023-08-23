@@ -7,7 +7,7 @@ const parameterWidth = document.querySelector("#parameter-width");
 const parameterLength = document.querySelector("#parameter-length");
 const parameterWidth2 = document.querySelector("#parameter-width-2");
 const parameterLength2 = document.querySelector("#parameter-length-2");
-const parameterSquare = document.querySelector("#parameter-square");
+const parameterSquare = document.querySelector("#parameter-square").querySelector("span");
 const priceKarkas = document.querySelector("#karkas");
 const pricePolycarbonate = document.querySelector("#polycarbonate");
 const priceSklad = document.querySelector("#price-sklad");
@@ -15,6 +15,8 @@ const priceMontage = document.querySelector("#montage");
 const priceDelivery = document.querySelector("#delivery");
 const priceTotal = document.querySelector("#total-price");
 const exampleImage = document.querySelector("#example-image");
+const submitButton = document.querySelector(".calculator__button");
+const inputsAll = document.querySelectorAll(".input");
 
 const variants = {
 	single: {
@@ -270,7 +272,7 @@ const variants = {
 			priceDelivery: 2500,
 			priceTotal: 186800,
 		},
-		"4,5x2": {
+		"4.5x2": {
 			img: "./images/double./4,5_2 односкат.jpeg",
 			widthST: 2.0,
 			lengthST: 4.5,
@@ -284,7 +286,7 @@ const variants = {
 			priceDelivery: 2500,
 			priceTotal: 71500,
 		},
-		"4,5x4": {
+		"4.5x4": {
 			img: "./images/double./4,5_4 односкат.jpeg",
 			widthST: 4.0,
 			lengthST: 4.5,
@@ -298,7 +300,7 @@ const variants = {
 			priceDelivery: 2500,
 			priceTotal: 93500,
 		},
-		"4,5x6": {
+		"4.5x6": {
 			img: "./images/double./4,5_6 односкат.jpeg",
 			widthST: 6.0,
 			lengthST: 4.5,
@@ -312,7 +314,7 @@ const variants = {
 			priceDelivery: 2500,
 			priceTotal: 115460,
 		},
-		"4,5x8": {
+		"4.5x8": {
 			img: "./images/double./4,5_8 односкат.jpeg",
 			widthST: 8.0,
 			lengthST: 4.5,
@@ -326,7 +328,7 @@ const variants = {
 			priceDelivery: 2500,
 			priceTotal: 145600,
 		},
-		"4,5x10": {
+		"4.5x10": {
 			img: "./images/double./4,5_10 односкат.jpeg",
 			widthST: 10.0,
 			lengthST: 4.5,
@@ -340,7 +342,7 @@ const variants = {
 			priceDelivery: 2500,
 			priceTotal: 172800,
 		},
-		"4,5x12": {
+		"4.5x12": {
 			img: "./images/double./4,5_12 односкат.jpeg",
 			widthST: 12.0,
 			lengthST: 4.5,
@@ -438,7 +440,7 @@ const variants = {
 			priceDelivery: 2500,
 			priceTotal: 223700,
 		},
-		"5,5x2": {
+		"5.5x2": {
 			img: "./images/double./5,5_2 односкат.jpeg",
 			widthST: 2.0,
 			lengthST: 5.5,
@@ -452,7 +454,7 @@ const variants = {
 			priceDelivery: 2500,
 			priceTotal: 82500,
 		},
-		"5,5x4": {
+		"5.5x4": {
 			img: "./images/double./5,5_4 односкат.jpeg",
 			widthST: 4.0,
 			lengthST: 5.5,
@@ -466,7 +468,7 @@ const variants = {
 			priceDelivery: 2500,
 			priceTotal: 109600,
 		},
-		"5,5x6": {
+		"5.5x6": {
 			img: "./images/double./5,5_6 односкат.jpeg",
 			widthST: 6.0,
 			lengthST: 5.5,
@@ -480,7 +482,7 @@ const variants = {
 			priceDelivery: 2500,
 			priceTotal: 137900,
 		},
-		"5,5x8": {
+		"5.5x8": {
 			img: "./images/double./5,5_8 односкат.jpeg",
 			widthST: 8.0,
 			lengthST: 5.5,
@@ -494,7 +496,7 @@ const variants = {
 			priceDelivery: 2500,
 			priceTotal: 173100,
 		},
-		"5,5x10": {
+		"5.5x10": {
 			img: "./images/double./5,5_10 односкат.jpeg",
 			widthST: 10.0,
 			lengthST: 5.5,
@@ -508,7 +510,7 @@ const variants = {
 			priceDelivery: 2500,
 			priceTotal: 205100,
 		},
-		"5,5x12": {
+		"5.5x12": {
 			img: "./images/double./5,5_12 односкат.jpeg",
 			widthST: 12.0,
 			lengthST: 5.5,
@@ -860,7 +862,7 @@ const variants = {
 			priceDelivery: 2500,
 			priceTotal: 186800,
 		},
-		"4,5x2": {
+		"4.5x2": {
 			img: "./images/double./4,5_2 односкат.jpeg",
 			widthST: 2.0,
 			lengthST: 4.5,
@@ -874,7 +876,7 @@ const variants = {
 			priceDelivery: 2500,
 			priceTotal: 71500,
 		},
-		"4,5x4": {
+		"4.5x4": {
 			img: "./images/double./4,5_4 односкат.jpeg",
 			widthST: 4.0,
 			lengthST: 4.5,
@@ -888,7 +890,7 @@ const variants = {
 			priceDelivery: 2500,
 			priceTotal: 93500,
 		},
-		"4,5x6": {
+		"4.5x6": {
 			img: "./images/double./4,5_6 односкат.jpeg",
 			widthST: 6.0,
 			lengthST: 4.5,
@@ -902,7 +904,7 @@ const variants = {
 			priceDelivery: 2500,
 			priceTotal: 115460,
 		},
-		"4,5x8": {
+		"4.5x8": {
 			img: "./images/double./4,5_8 односкат.jpeg",
 			widthST: 8.0,
 			lengthST: 4.5,
@@ -916,7 +918,7 @@ const variants = {
 			priceDelivery: 2500,
 			priceTotal: 145600,
 		},
-		"4,5x10": {
+		"4.5x10": {
 			img: "./images/double./4,5_10 односкат.jpeg",
 			widthST: 10.0,
 			lengthST: 4.5,
@@ -930,7 +932,7 @@ const variants = {
 			priceDelivery: 2500,
 			priceTotal: 172800,
 		},
-		"4,5x12": {
+		"4.5x12": {
 			img: "./images/double./4,5_12 односкат.jpeg",
 			widthST: 12.0,
 			lengthST: 4.5,
@@ -1028,7 +1030,7 @@ const variants = {
 			priceDelivery: 2500,
 			priceTotal: 223700,
 		},
-		"5,5x2": {
+		"5.5x2": {
 			img: "./images/double./5,5_2 односкат.jpeg",
 			widthST: 2.0,
 			lengthST: 5.5,
@@ -1042,7 +1044,7 @@ const variants = {
 			priceDelivery: 2500,
 			priceTotal: 82500,
 		},
-		"5,5x4": {
+		"5.5x4": {
 			img: "./images/double./5,5_4 односкат.jpeg",
 			widthST: 4.0,
 			lengthST: 5.5,
@@ -1056,7 +1058,7 @@ const variants = {
 			priceDelivery: 2500,
 			priceTotal: 109600,
 		},
-		"5,5x6": {
+		"5.5x6": {
 			img: "./images/double./5,5_6 односкат.jpeg",
 			widthST: 6.0,
 			lengthST: 5.5,
@@ -1070,7 +1072,7 @@ const variants = {
 			priceDelivery: 2500,
 			priceTotal: 137900,
 		},
-		"5,5x8": {
+		"5.5x8": {
 			img: "./images/double./5,5_8 односкат.jpeg",
 			widthST: 8.0,
 			lengthST: 5.5,
@@ -1084,7 +1086,7 @@ const variants = {
 			priceDelivery: 2500,
 			priceTotal: 173100,
 		},
-		"5,5x10": {
+		"5.5x10": {
 			img: "./images/double./5,5_10 односкат.jpeg",
 			widthST: 10.0,
 			lengthST: 5.5,
@@ -1098,7 +1100,7 @@ const variants = {
 			priceDelivery: 2500,
 			priceTotal: 205100,
 		},
-		"5,5x12": {
+		"5.5x12": {
 			img: "./images/double./5,5_12 односкат.jpeg",
 			widthST: 12.0,
 			lengthST: 5.5,
@@ -1198,3 +1200,44 @@ const variants = {
 		},
 	},
 };
+
+inputsAll.forEach((input) => {
+	input.addEventListener("change", calculator);
+});
+
+inputWidth.value = 3;
+inputLength.value = 2;
+
+function calculator() {
+	let radio, type, typeName;
+
+	if (radioSingle.checked) {
+		radio = "single";
+		typeName = "арочный односкатный";
+	}
+	if (radioDouble.checked) {
+		radio = "double";
+		typeName = "арочный двускатный";
+	}
+
+	type = variants[radio];
+	const result = `${inputWidth.value}x${inputLength.value}`;
+	const neededObj = type[`${result}`];
+	const resultName = `Навес ${typeName} ${result}`;
+
+	parameterWidth.textContent = `${neededObj.widthST} м`;
+	parameterWidth2.textContent = `${neededObj.widthKR} м`;
+	parameterLength.textContent = `${neededObj.lengthST} м`;
+	parameterLength2.textContent = `${neededObj.lengthKR} м`;
+	parameterSquare.textContent = `${neededObj.square} м`;
+	priceKarkas.textContent = `${neededObj.priceKarkas} руб.`;
+	pricePolycarbonate.textContent = `${neededObj.pricePolycarbonate} руб.`;
+	priceSklad.textContent = `${neededObj.priceSklad} руб.`;
+	priceMontage.textContent = `${neededObj.priceMontage} руб.`;
+	priceDelivery.textContent = `${neededObj.priceDelivery} руб.`;
+	priceTotal.textContent = `${neededObj.priceTotal} руб.`;
+	exampleImage.src = neededObj.img;
+	submitButton.href = `#order:${resultName}=${neededObj.priceTotal}`;
+}
+
+calculator();

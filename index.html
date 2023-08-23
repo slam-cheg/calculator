@@ -14,48 +14,87 @@
 						<div class="calculator__input-wrapper">
 							<label for="radio-width">Ширина навеса по крайним стойкам (м)</label>
 							<div class="calculator__range-track">
-								<input type="range" class="calculator__range" min="3" max="6" step="0.5" id="input-width" />
-                                <div class="calculator__range-steps">
-                                    <div class="range-step">3<div></div></div>
-                                    <div class="range-step">3.5<div></div></div>
-                                    <div class="range-step">4<div></div></div>
-                                    <div class="range-step">4.5<div></div></div>
-                                    <div class="range-step">5<div></div></div>
-                                    <div class="range-step">5.5<div></div></div>
-                                    <div class="range-step">6<div></div></div>
-                                </div>
+								<input type="range" class="calculator__range input" min="3" max="6" step="0.5" id="input-width" />
+								<div class="calculator__range-steps">
+									<div class="range-step">
+										3
+										<div></div>
+									</div>
+									<div class="range-step">
+										3.5
+										<div></div>
+									</div>
+									<div class="range-step">
+										4
+										<div></div>
+									</div>
+									<div class="range-step">
+										4.5
+										<div></div>
+									</div>
+									<div class="range-step">
+										5
+										<div></div>
+									</div>
+									<div class="range-step">
+										5.5
+										<div></div>
+									</div>
+									<div class="range-step">
+										6
+										<div></div>
+									</div>
+								</div>
 							</div>
 						</div>
 						<div class="calculator__input-wrapper">
 							<label for="radio-width">Длина навеса по крайним стойкам (м)</label>
-                            <div class="calculator__range-track">
-                                <input type="range" class="calculator__range" min="2" max="12" step="2" id="input-length"/>
-                                <div class="calculator__range-steps">
-                                    <div class="range-step">2<div></div></div>
-                                    <div class="range-step">4<div></div></div>
-                                    <div class="range-step">6<div></div></div>
-                                    <div class="range-step">8<div></div></div>
-                                    <div class="range-step">10<div></div></div>
-                                    <div class="range-step">12<div></div></div>
-                                </div>
-                            </div>
+							<div class="calculator__range-track">
+								<input type="range" class="calculator__range input" min="2" max="12" step="2" id="input-length" />
+								<div class="calculator__range-steps">
+									<div class="range-step">
+										2
+										<div></div>
+									</div>
+									<div class="range-step">
+										4
+										<div></div>
+									</div>
+									<div class="range-step">
+										6
+										<div></div>
+									</div>
+									<div class="range-step">
+										8
+										<div></div>
+									</div>
+									<div class="range-step">
+										10
+										<div></div>
+									</div>
+									<div class="range-step">
+										12
+										<div></div>
+									</div>
+								</div>
+							</div>
 						</div>
 						<div class="calculator__input-wrapper">
 							<p class="calculator__radio-title">Выбор кровли</p>
 							<div class="control-group">
-                                <label class="control control-radio">
-                                    Арочная двускатная
-                                        <input class="radio-input" type="radio" name="radio" checked="checked" id="radio-double"/>
-                                    <div class="control_indicator"></div>
-                                    <img src="./images/radio-double.svg" alt="" class="radio-img">
-                                </label>
-                                <label class="control control-radio">
-                                    Арочная односкатная
-                                        <input class="radio-input" type="radio" name="radio" id="radio-single"/>
-                                    <div class="control_indicator"></div>
-                                    <img src="./images/radio-single.svg" alt="" class="radio-img">
-                                </label>
-                            </div>
+								<label class="control control-radio">
+									Арочная двускатная
+									<input class="radio-input input" type="radio" name="radio" checked="checked" id="radio-double" />
+									<div class="control_indicator"></div>
+									<img src="./images/radio-double.svg" alt="" class="radio-img" />
+								</label>
+								<label class="control control-radio">
+									Арочная односкатная
+									<input class="radio-input input" type="radio" name="radio" id="radio-single" />
+									<div class="control_indicator"></div>
+									<img src="./images/radio-single.svg" alt="" class="radio-img" />
+								</label>
+							</div>
 						</div>
 					</div>
 					<div class="calculator__prices">
@@ -92,13 +131,13 @@
 							<div class="calculator__parameter-wrapper">
 								<div class="calculator__parameter-value">
 									<p class="calculator__width">Площадь навеса</p>
-									<p class="calculator__width-value" id="parameter-square">7.10м<sup>2</sup></p>
+									<p class="calculator__width-value" id="parameter-square"><span>7.10м</span><sup>2</sup></p>
 								</div>
 								<p class="calculator__parameter-description">(по кровле)</p>
 							</div>
-                            <div class="calculator__example-img">
-                                <img id="example-image" src="./images/3_2 двускат.jpeg" alt="">
-                            </div>
+							<div class="calculator__example-img">
+								<img id="example-image" src="./images/3_2 двускат.jpeg" alt="" />
+							</div>
 						</div>
 						<div class="calculator__prices-right">
 							<h3 class="calculator__h3-title">Стоимость:</h3>
