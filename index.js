@@ -21,7 +21,7 @@ const inputsAll = document.querySelectorAll(".input");
 const variants = {
 	single: {
 		"3x2": {
-			img: "./images/double./3_2 односкат.jpeg",
+			img: "./images/single/3_2 односкат.jpeg",
 			widthST: 2.0,
 			lengthST: 3.0,
 			widthKR: 2.1,
@@ -35,7 +35,7 @@ const variants = {
 			priceTotal: 55700,
 		},
 		"3x4": {
-			img: "./images/double./3_4 односкат.jpeg",
+			img: "./images/single/3_4 односкат.jpeg",
 			widthST: 4.0,
 			lengthST: 3.0,
 			widthKR: 4.2,
@@ -49,7 +49,7 @@ const variants = {
 			priceTotal: 73400,
 		},
 		"3x6": {
-			img: "./images/double./3_6 односкат.jpeg",
+			img: "./images/single/3_6 односкат.jpeg",
 			widthST: 6.0,
 			lengthST: 3.0,
 			widthKR: 6.3,
@@ -63,7 +63,7 @@ const variants = {
 			priceTotal: 91100,
 		},
 		"3x8": {
-			img: "./images/double./3_8 односкат.jpeg",
+			img: "./images/single/3_8 односкат.jpeg",
 			widthST: 8.0,
 			lengthST: 3.0,
 			widthKR: 8.0,
@@ -77,7 +77,7 @@ const variants = {
 			priceTotal: 118700,
 		},
 		"3x10": {
-			img: "./images/double./3_10 односкат.jpeg",
+			img: "./images/single/3_10 односкат.jpeg",
 			widthST: 10.0,
 			lengthST: 3.0,
 			widthKR: 10.5,
@@ -91,7 +91,7 @@ const variants = {
 			priceTotal: 136400,
 		},
 		"3x12": {
-			img: "./images/double./3_12 односкат.jpeg",
+			img: "./images/single/3_12 односкат.jpeg",
 			widthST: 12,
 			lengthST: 3.0,
 			widthKR: 12.6,
@@ -105,7 +105,7 @@ const variants = {
 			priceTotal: 159500,
 		},
 		"3.5x2": {
-			img: "./images/double./3,5_2 односкат.jpeg",
+			img: "./images/single/3,5_2 односкат.jpeg",
 			widthST: 2,
 			lengthST: 3.5,
 			widthKR: 2.1,
@@ -119,7 +119,7 @@ const variants = {
 			priceTotal: 58200,
 		},
 		"3.5x4": {
-			img: "./images/double./3,5_4 односкат.jpeg",
+			img: "./images/single/3,5_4 односкат.jpeg",
 			widthST: 4.0,
 			lengthST: 3.5,
 			widthKR: 4.0,
@@ -133,7 +133,7 @@ const variants = {
 			priceTotal: 78000,
 		},
 		"3.5x6": {
-			img: "./images/double./3,5_6 односкат.jpeg",
+			img: "./images/single/3,5_6 односкат.jpeg",
 			widthST: 6.0,
 			lengthST: 3.5,
 			widthKR: 6.3,
@@ -147,7 +147,7 @@ const variants = {
 			priceTotal: 99700,
 		},
 		"3.5x8": {
-			img: "./images/double./3,5_8 односкат.jpeg",
+			img: "./images/single/3,5_8 односкат.jpeg",
 			widthST: 8.0,
 			lengthST: 3.5,
 			widthKR: 8.5,
@@ -161,7 +161,7 @@ const variants = {
 			priceTotal: 124400,
 		},
 		"3.5x10": {
-			img: "./images/double./3,5_10 односкат.jpeg",
+			img: "./images/single/3,5_10 односкат.jpeg",
 			widthST: 10.0,
 			lengthST: 3.5,
 			widthKR: 10.6,
@@ -175,7 +175,7 @@ const variants = {
 			priceTotal: 147700,
 		},
 		"3.5x12": {
-			img: "./images/double./3,5_12 односкат.jpeg",
+			img: "./images/single/3,5_12 односкат.jpeg",
 			widthST: 12.0,
 			lengthST: 3.5,
 			widthKR: 12.6,
@@ -189,7 +189,7 @@ const variants = {
 			priceTotal: 171700,
 		},
 		"4x2": {
-			img: "./images/double./4_2 односкат.jpeg",
+			img: "./images/single/4_2 односкат.jpeg",
 			widthST: 2.0,
 			lengthST: 4.0,
 			widthKR: 2.1,
@@ -203,7 +203,7 @@ const variants = {
 			priceTotal: 63800,
 		},
 		"4x4": {
-			img: "./images/double./4_4 односкат.jpeg",
+			img: "./images/single/4_4 односкат.jpeg",
 			widthST: 4.0,
 			lengthST: 4.0,
 			widthKR: 4.2,
@@ -217,7 +217,7 @@ const variants = {
 			priceTotal: 81300,
 		},
 		"4x6": {
-			img: "./images/double./4_6 односкат.jpeg",
+			img: "./images/single/4_6 односкат.jpeg",
 			widthST: 6.0,
 			lengthST: 4.0,
 			widthKR: 6.3,
@@ -231,7 +231,7 @@ const variants = {
 			priceTotal: 108200,
 		},
 		"4x8": {
-			img: "./images/double./4_8 односкат.jpeg",
+			img: "./images/single/4_8 односкат.jpeg",
 			widthST: 8.0,
 			lengthST: 4.0,
 			widthKR: 8.5,
@@ -245,7 +245,7 @@ const variants = {
 			priceTotal: 135100,
 		},
 		"4x10": {
-			img: "./images/double./4_8 односкат.jpeg",
+			img: "./images/single/4_8 односкат.jpeg",
 			widthST: 10.0,
 			lengthST: 4.0,
 			widthKR: 10.6,
@@ -259,7 +259,7 @@ const variants = {
 			priceTotal: 160300,
 		},
 		"4x12": {
-			img: "./images/double./4_12 односкат.jpeg",
+			img: "./images/single/4_12 односкат.jpeg",
 			widthST: 12.0,
 			lengthST: 4.0,
 			widthKR: 12.6,
@@ -273,7 +273,7 @@ const variants = {
 			priceTotal: 186800,
 		},
 		"4.5x2": {
-			img: "./images/double./4,5_2 односкат.jpeg",
+			img: "./images/single/4,5_2 односкат.jpeg",
 			widthST: 2.0,
 			lengthST: 4.5,
 			widthKR: 2.1,
@@ -287,7 +287,7 @@ const variants = {
 			priceTotal: 71500,
 		},
 		"4.5x4": {
-			img: "./images/double./4,5_4 односкат.jpeg",
+			img: "./images/single/4,5_4 односкат.jpeg",
 			widthST: 4.0,
 			lengthST: 4.5,
 			widthKR: 4.2,
@@ -301,7 +301,7 @@ const variants = {
 			priceTotal: 93500,
 		},
 		"4.5x6": {
-			img: "./images/double./4,5_6 односкат.jpeg",
+			img: "./images/single/4,5_6 односкат.jpeg",
 			widthST: 6.0,
 			lengthST: 4.5,
 			widthKR: 6.3,
@@ -315,7 +315,7 @@ const variants = {
 			priceTotal: 115460,
 		},
 		"4.5x8": {
-			img: "./images/double./4,5_8 односкат.jpeg",
+			img: "./images/single/4,5_8 односкат.jpeg",
 			widthST: 8.0,
 			lengthST: 4.5,
 			widthKR: 8.5,
@@ -329,7 +329,7 @@ const variants = {
 			priceTotal: 145600,
 		},
 		"4.5x10": {
-			img: "./images/double./4,5_10 односкат.jpeg",
+			img: "./images/single/4,5_10 односкат.jpeg",
 			widthST: 10.0,
 			lengthST: 4.5,
 			widthKR: 10.0,
@@ -343,7 +343,7 @@ const variants = {
 			priceTotal: 172800,
 		},
 		"4.5x12": {
-			img: "./images/double./4,5_12 односкат.jpeg",
+			img: "./images/single/4,5_12 односкат.jpeg",
 			widthST: 12.0,
 			lengthST: 4.5,
 			widthKR: 12.6,
@@ -357,7 +357,7 @@ const variants = {
 			priceTotal: 199800,
 		},
 		"5x2": {
-			img: "./images/double./5_2 односкат.jpeg",
+			img: "./images/single/5_2 односкат.jpeg",
 			widthST: 2.0,
 			lengthST: 5.0,
 			widthKR: 2.1,
@@ -371,7 +371,7 @@ const variants = {
 			priceTotal: 74700,
 		},
 		"5x4": {
-			img: "./images/double./5_4 односкат.jpeg",
+			img: "./images/single/5_4 односкат.jpeg",
 			widthST: 4.0,
 			lengthST: 5.0,
 			widthKR: 4.2,
@@ -385,7 +385,7 @@ const variants = {
 			priceTotal: 100800,
 		},
 		"5x6": {
-			img: "./images/double./5_6 односкат.jpeg",
+			img: "./images/single/5_6 односкат.jpeg",
 			widthST: 6.0,
 			lengthST: 5.0,
 			widthKR: 6.3,
@@ -399,7 +399,7 @@ const variants = {
 			priceTotal: 128300,
 		},
 		"5x8": {
-			img: "./images/double./5_8 односкат.jpeg",
+			img: "./images/single/5_8 односкат.jpeg",
 			widthST: 8.0,
 			lengthST: 5.0,
 			widthKR: 8.5,
@@ -413,7 +413,7 @@ const variants = {
 			priceTotal: 161500,
 		},
 		"5x10": {
-			img: "./images/double./5_10 односкат.jpeg",
+			img: "./images/single/5_10 односкат.jpeg",
 			widthST: 10.0,
 			lengthST: 5.0,
 			widthKR: 10.6,
@@ -427,7 +427,7 @@ const variants = {
 			priceTotal: 192700,
 		},
 		"5x12": {
-			img: "./images/double./5_12 односкат.jpeg",
+			img: "./images/single/5_12 односкат.jpeg",
 			widthST: 12.0,
 			lengthST: 5.0,
 			widthKR: 12.6,
@@ -441,7 +441,7 @@ const variants = {
 			priceTotal: 223700,
 		},
 		"5.5x2": {
-			img: "./images/double./5,5_2 односкат.jpeg",
+			img: "./images/single/5,5_2 односкат.jpeg",
 			widthST: 2.0,
 			lengthST: 5.5,
 			widthKR: 2.1,
@@ -455,7 +455,7 @@ const variants = {
 			priceTotal: 82500,
 		},
 		"5.5x4": {
-			img: "./images/double./5,5_4 односкат.jpeg",
+			img: "./images/single/5,5_4 односкат.jpeg",
 			widthST: 4.0,
 			lengthST: 5.5,
 			widthKR: 4.2,
@@ -469,7 +469,7 @@ const variants = {
 			priceTotal: 109600,
 		},
 		"5.5x6": {
-			img: "./images/double./5,5_6 односкат.jpeg",
+			img: "./images/single/5,5_6 односкат.jpeg",
 			widthST: 6.0,
 			lengthST: 5.5,
 			widthKR: 6.3,
@@ -483,7 +483,7 @@ const variants = {
 			priceTotal: 137900,
 		},
 		"5.5x8": {
-			img: "./images/double./5,5_8 односкат.jpeg",
+			img: "./images/single/5,5_8 односкат.jpeg",
 			widthST: 8.0,
 			lengthST: 5.5,
 			widthKR: 8.5,
@@ -497,7 +497,7 @@ const variants = {
 			priceTotal: 173100,
 		},
 		"5.5x10": {
-			img: "./images/double./5,5_10 односкат.jpeg",
+			img: "./images/single/5,5_10 односкат.jpeg",
 			widthST: 10.0,
 			lengthST: 5.5,
 			widthKR: 10.6,
@@ -511,7 +511,7 @@ const variants = {
 			priceTotal: 205100,
 		},
 		"5.5x12": {
-			img: "./images/double./5,5_12 односкат.jpeg",
+			img: "./images/single/5,5_12 односкат.jpeg",
 			widthST: 12.0,
 			lengthST: 5.5,
 			widthKR: 12.6,
@@ -525,7 +525,7 @@ const variants = {
 			priceTotal: 238300,
 		},
 		"6x2": {
-			img: "./images/double./6_2 односкат.jpeg",
+			img: "./images/single/6_2 односкат.jpeg",
 			widthST: 2.0,
 			lengthST: 6,
 			widthKR: 2.1,
@@ -539,7 +539,7 @@ const variants = {
 			priceTotal: 94700,
 		},
 		"6x4": {
-			img: "./images/double./6_4 односкат.jpeg",
+			img: "./images/single/6_4 односкат.jpeg",
 			widthST: 4.0,
 			lengthST: 6,
 			widthKR: 4.2,
@@ -553,7 +553,7 @@ const variants = {
 			priceTotal: 121400,
 		},
 		"6x6": {
-			img: "./images/double./6_6 односкат.jpeg",
+			img: "./images/single/6_6 односкат.jpeg",
 			widthST: 6.0,
 			lengthST: 6,
 			widthKR: 6.3,
@@ -567,7 +567,7 @@ const variants = {
 			priceTotal: 150900,
 		},
 		"6x8": {
-			img: "./images/double./6_8 односкат.jpeg",
+			img: "./images/single/6_8 односкат.jpeg",
 			widthST: 6.0,
 			lengthST: 8.5,
 			widthKR: 6.5,
@@ -581,7 +581,7 @@ const variants = {
 			priceTotal: 185900,
 		},
 		"6x10": {
-			img: "./images/double./6_10 односкат.jpeg",
+			img: "./images/single/6_10 односкат.jpeg",
 			widthST: 6.0,
 			lengthST: 10.0,
 			widthKR: 6.5,
@@ -595,7 +595,7 @@ const variants = {
 			priceTotal: 219700,
 		},
 		"6x12": {
-			img: "./images/double./6_12 односкат.jpeg",
+			img: "./images/single/6_12 односкат.jpeg",
 			widthST: 6.0,
 			lengthST: 12.0,
 			widthKR: 6.5,
@@ -611,7 +611,7 @@ const variants = {
 	},
 	double: {
 		"3x2": {
-			img: "./images/double./3_2 односкат.jpeg",
+			img: "./images/double/3_2 двускат.jpeg",
 			widthST: 2.0,
 			lengthST: 3.0,
 			widthKR: 2.1,
@@ -625,7 +625,7 @@ const variants = {
 			priceTotal: 55700,
 		},
 		"3x4": {
-			img: "./images/double./3_4 односкат.jpeg",
+			img: "./images/double/3_4 двускат.jpeg",
 			widthST: 4.0,
 			lengthST: 3.0,
 			widthKR: 4.2,
@@ -639,7 +639,7 @@ const variants = {
 			priceTotal: 73400,
 		},
 		"3x6": {
-			img: "./images/double./3_6 односкат.jpeg",
+			img: "./images/double/3_6 двускат.jpeg",
 			widthST: 6.0,
 			lengthST: 3.0,
 			widthKR: 6.3,
@@ -653,7 +653,7 @@ const variants = {
 			priceTotal: 91100,
 		},
 		"3x8": {
-			img: "./images/double./3_8 односкат.jpeg",
+			img: "./images/double/3_8 двускат.jpeg",
 			widthST: 8.0,
 			lengthST: 3.0,
 			widthKR: 8.0,
@@ -667,7 +667,7 @@ const variants = {
 			priceTotal: 118700,
 		},
 		"3x10": {
-			img: "./images/double./3_10 односкат.jpeg",
+			img: "./images/double/3_10 двускат.jpeg",
 			widthST: 10.0,
 			lengthST: 3.0,
 			widthKR: 10.5,
@@ -681,7 +681,7 @@ const variants = {
 			priceTotal: 136400,
 		},
 		"3x12": {
-			img: "./images/double./3_12 односкат.jpeg",
+			img: "./images/double/3_12 двускат.jpeg",
 			widthST: 12,
 			lengthST: 3.0,
 			widthKR: 12.6,
@@ -695,7 +695,7 @@ const variants = {
 			priceTotal: 159500,
 		},
 		"3.5x2": {
-			img: "./images/double./3,5_2 односкат.jpeg",
+			img: "./images/double/3,5_2 двускат.jpeg",
 			widthST: 2,
 			lengthST: 3.5,
 			widthKR: 2.1,
@@ -709,7 +709,7 @@ const variants = {
 			priceTotal: 58200,
 		},
 		"3.5x4": {
-			img: "./images/double./3,5_4 односкат.jpeg",
+			img: "./images/double/3,5_4 двускат.jpeg",
 			widthST: 4.0,
 			lengthST: 3.5,
 			widthKR: 4.0,
@@ -723,7 +723,7 @@ const variants = {
 			priceTotal: 78000,
 		},
 		"3.5x6": {
-			img: "./images/double./3,5_6 односкат.jpeg",
+			img: "./images/double/3,5_6 двускат.jpeg",
 			widthST: 6.0,
 			lengthST: 3.5,
 			widthKR: 6.3,
@@ -737,7 +737,7 @@ const variants = {
 			priceTotal: 99700,
 		},
 		"3.5x8": {
-			img: "./images/double./3,5_8 односкат.jpeg",
+			img: "./images/double/3,5_8 двускат.jpeg",
 			widthST: 8.0,
 			lengthST: 3.5,
 			widthKR: 8.5,
@@ -751,7 +751,7 @@ const variants = {
 			priceTotal: 124400,
 		},
 		"3.5x10": {
-			img: "./images/double./3,5_10 односкат.jpeg",
+			img: "./images/double/3,5_10 двускат.jpeg",
 			widthST: 10.0,
 			lengthST: 3.5,
 			widthKR: 10.6,
@@ -765,7 +765,7 @@ const variants = {
 			priceTotal: 147700,
 		},
 		"3.5x12": {
-			img: "./images/double./3,5_12 односкат.jpeg",
+			img: "./images/double/3,5_12 двускат.jpeg",
 			widthST: 12.0,
 			lengthST: 3.5,
 			widthKR: 12.6,
@@ -779,7 +779,7 @@ const variants = {
 			priceTotal: 171700,
 		},
 		"4x2": {
-			img: "./images/double./4_2 односкат.jpeg",
+			img: "./images/double/4_2 двускат.jpeg",
 			widthST: 2.0,
 			lengthST: 4.0,
 			widthKR: 2.1,
@@ -793,7 +793,7 @@ const variants = {
 			priceTotal: 63800,
 		},
 		"4x4": {
-			img: "./images/double./4_4 односкат.jpeg",
+			img: "./images/double/4_4 двускат.jpeg",
 			widthST: 4.0,
 			lengthST: 4.0,
 			widthKR: 4.2,
@@ -807,7 +807,7 @@ const variants = {
 			priceTotal: 81300,
 		},
 		"4x6": {
-			img: "./images/double./4_6 односкат.jpeg",
+			img: "./images/double/4_6 двускат.jpeg",
 			widthST: 6.0,
 			lengthST: 4.0,
 			widthKR: 6.3,
@@ -821,7 +821,7 @@ const variants = {
 			priceTotal: 108200,
 		},
 		"4x8": {
-			img: "./images/double./4_8 односкат.jpeg",
+			img: "./images/double/4_8 двускат.jpeg",
 			widthST: 8.0,
 			lengthST: 4.0,
 			widthKR: 8.5,
@@ -835,7 +835,7 @@ const variants = {
 			priceTotal: 135100,
 		},
 		"4x10": {
-			img: "./images/double./4_8 односкат.jpeg",
+			img: "./images/double/4_8 двускат.jpeg",
 			widthST: 10.0,
 			lengthST: 4.0,
 			widthKR: 10.6,
@@ -849,7 +849,7 @@ const variants = {
 			priceTotal: 160300,
 		},
 		"4x12": {
-			img: "./images/double./4_12 односкат.jpeg",
+			img: "./images/double/4_12 двускат.jpeg",
 			widthST: 12.0,
 			lengthST: 4.0,
 			widthKR: 12.6,
@@ -863,7 +863,7 @@ const variants = {
 			priceTotal: 186800,
 		},
 		"4.5x2": {
-			img: "./images/double./4,5_2 односкат.jpeg",
+			img: "./images/double/4,5_2 двускат.jpeg",
 			widthST: 2.0,
 			lengthST: 4.5,
 			widthKR: 2.1,
@@ -877,7 +877,7 @@ const variants = {
 			priceTotal: 71500,
 		},
 		"4.5x4": {
-			img: "./images/double./4,5_4 односкат.jpeg",
+			img: "./images/double/4,5_4 двускат.jpeg",
 			widthST: 4.0,
 			lengthST: 4.5,
 			widthKR: 4.2,
@@ -891,7 +891,7 @@ const variants = {
 			priceTotal: 93500,
 		},
 		"4.5x6": {
-			img: "./images/double./4,5_6 односкат.jpeg",
+			img: "./images/double/4,5_6 двускат.jpeg",
 			widthST: 6.0,
 			lengthST: 4.5,
 			widthKR: 6.3,
@@ -905,7 +905,7 @@ const variants = {
 			priceTotal: 115460,
 		},
 		"4.5x8": {
-			img: "./images/double./4,5_8 односкат.jpeg",
+			img: "./images/double/4,5_8 двускат.jpeg",
 			widthST: 8.0,
 			lengthST: 4.5,
 			widthKR: 8.5,
@@ -919,7 +919,7 @@ const variants = {
 			priceTotal: 145600,
 		},
 		"4.5x10": {
-			img: "./images/double./4,5_10 односкат.jpeg",
+			img: "./images/double/4,5_10 двускат.jpeg",
 			widthST: 10.0,
 			lengthST: 4.5,
 			widthKR: 10.0,
@@ -933,7 +933,7 @@ const variants = {
 			priceTotal: 172800,
 		},
 		"4.5x12": {
-			img: "./images/double./4,5_12 односкат.jpeg",
+			img: "./images/double/4,5_12 двускат.jpeg",
 			widthST: 12.0,
 			lengthST: 4.5,
 			widthKR: 12.6,
@@ -947,7 +947,7 @@ const variants = {
 			priceTotal: 199800,
 		},
 		"5x2": {
-			img: "./images/double./5_2 односкат.jpeg",
+			img: "./images/double/5_2 двускат.jpeg",
 			widthST: 2.0,
 			lengthST: 5.0,
 			widthKR: 2.1,
@@ -961,7 +961,7 @@ const variants = {
 			priceTotal: 74700,
 		},
 		"5x4": {
-			img: "./images/double./5_4 односкат.jpeg",
+			img: "./images/double/5_4 двускат.jpeg",
 			widthST: 4.0,
 			lengthST: 5.0,
 			widthKR: 4.2,
@@ -975,7 +975,7 @@ const variants = {
 			priceTotal: 100800,
 		},
 		"5x6": {
-			img: "./images/double./5_6 односкат.jpeg",
+			img: "./images/double/5_6 двускат.jpeg",
 			widthST: 6.0,
 			lengthST: 5.0,
 			widthKR: 6.3,
@@ -989,7 +989,7 @@ const variants = {
 			priceTotal: 128300,
 		},
 		"5x8": {
-			img: "./images/double./5_8 односкат.jpeg",
+			img: "./images/double/5_8 двускат.jpeg",
 			widthST: 8.0,
 			lengthST: 5.0,
 			widthKR: 8.5,
@@ -1003,7 +1003,7 @@ const variants = {
 			priceTotal: 161500,
 		},
 		"5x10": {
-			img: "./images/double./5_10 односкат.jpeg",
+			img: "./images/double/5_10 двускат.jpeg",
 			widthST: 10.0,
 			lengthST: 5.0,
 			widthKR: 10.6,
@@ -1017,7 +1017,7 @@ const variants = {
 			priceTotal: 192700,
 		},
 		"5x12": {
-			img: "./images/double./5_12 односкат.jpeg",
+			img: "./images/double/5_12 двускат.jpeg",
 			widthST: 12.0,
 			lengthST: 5.0,
 			widthKR: 12.6,
@@ -1031,7 +1031,7 @@ const variants = {
 			priceTotal: 223700,
 		},
 		"5.5x2": {
-			img: "./images/double./5,5_2 односкат.jpeg",
+			img: "./images/double/5,5_2 двускат.jpeg",
 			widthST: 2.0,
 			lengthST: 5.5,
 			widthKR: 2.1,
@@ -1045,7 +1045,7 @@ const variants = {
 			priceTotal: 82500,
 		},
 		"5.5x4": {
-			img: "./images/double./5,5_4 односкат.jpeg",
+			img: "./images/double/5,5_4 двускат.jpeg",
 			widthST: 4.0,
 			lengthST: 5.5,
 			widthKR: 4.2,
@@ -1059,7 +1059,7 @@ const variants = {
 			priceTotal: 109600,
 		},
 		"5.5x6": {
-			img: "./images/double./5,5_6 односкат.jpeg",
+			img: "./images/double/5,5_6 двускат.jpeg",
 			widthST: 6.0,
 			lengthST: 5.5,
 			widthKR: 6.3,
@@ -1073,7 +1073,7 @@ const variants = {
 			priceTotal: 137900,
 		},
 		"5.5x8": {
-			img: "./images/double./5,5_8 односкат.jpeg",
+			img: "./images/double/5,5_8 двускат.jpeg",
 			widthST: 8.0,
 			lengthST: 5.5,
 			widthKR: 8.5,
@@ -1087,7 +1087,7 @@ const variants = {
 			priceTotal: 173100,
 		},
 		"5.5x10": {
-			img: "./images/double./5,5_10 односкат.jpeg",
+			img: "./images/double/5,5_10 двускат.jpeg",
 			widthST: 10.0,
 			lengthST: 5.5,
 			widthKR: 10.6,
@@ -1101,7 +1101,7 @@ const variants = {
 			priceTotal: 205100,
 		},
 		"5.5x12": {
-			img: "./images/double./5,5_12 односкат.jpeg",
+			img: "./images/double/5,5_12 двускат.jpeg",
 			widthST: 12.0,
 			lengthST: 5.5,
 			widthKR: 12.6,
@@ -1115,7 +1115,7 @@ const variants = {
 			priceTotal: 238300,
 		},
 		"6x2": {
-			img: "./images/double./6_2 односкат.jpeg",
+			img: "./images/double/6_2 двускат.jpeg",
 			widthST: 2.0,
 			lengthST: 6,
 			widthKR: 2.1,
@@ -1129,7 +1129,7 @@ const variants = {
 			priceTotal: 94700,
 		},
 		"6x4": {
-			img: "./images/double./6_4 односкат.jpeg",
+			img: "./images/double/6_4 двускат.jpeg",
 			widthST: 4.0,
 			lengthST: 6,
 			widthKR: 4.2,
@@ -1143,7 +1143,7 @@ const variants = {
 			priceTotal: 121400,
 		},
 		"6x6": {
-			img: "./images/double./6_6 односкат.jpeg",
+			img: "./images/double/6_6 двускат.jpeg",
 			widthST: 6.0,
 			lengthST: 6,
 			widthKR: 6.3,
@@ -1157,7 +1157,7 @@ const variants = {
 			priceTotal: 150900,
 		},
 		"6x8": {
-			img: "./images/double./6_8 односкат.jpeg",
+			img: "./images/double/6_8 двускат.jpeg",
 			widthST: 6.0,
 			lengthST: 8.5,
 			widthKR: 6.5,
@@ -1171,7 +1171,7 @@ const variants = {
 			priceTotal: 185900,
 		},
 		"6x10": {
-			img: "./images/double./6_10 односкат.jpeg",
+			img: "./images/double/6_10 двускат.jpeg",
 			widthST: 6.0,
 			lengthST: 10.0,
 			widthKR: 6.5,
@@ -1185,7 +1185,7 @@ const variants = {
 			priceTotal: 219700,
 		},
 		"6x12": {
-			img: "./images/double./6_12 односкат.jpeg",
+			img: "./images/double/6_12 двускат.jpeg",
 			widthST: 6.0,
 			lengthST: 12.0,
 			widthKR: 6.5,
