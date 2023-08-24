@@ -22,7 +22,7 @@ const optionsContainers = document.querySelectorAll(".calculator__option-wrapper
 const variants = {
 	single: {
 		"3x2": {
-			img: "./images/single/3_2 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild6331-3537-4334-b235-353264643537/3_2_.jpeg",
 			widthST: 2.0,
 			lengthST: 3.0,
 			widthKR: 2.1,
@@ -36,7 +36,7 @@ const variants = {
 			priceTotal: 55700,
 		},
 		"3x4": {
-			img: "./images/single/3_4 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild3230-3363-4633-a233-303464653534/3_4_.jpeg",
 			widthST: 4.0,
 			lengthST: 3.0,
 			widthKR: 4.2,
@@ -50,7 +50,7 @@ const variants = {
 			priceTotal: 73400,
 		},
 		"3x6": {
-			img: "./images/single/3_6 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild6238-3166-4335-a633-663835643439/3_6_.jpeg",
 			widthST: 6.0,
 			lengthST: 3.0,
 			widthKR: 6.3,
@@ -64,7 +64,7 @@ const variants = {
 			priceTotal: 91100,
 		},
 		"3x8": {
-			img: "./images/single/3_8 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild3039-6531-4236-a438-653063353865/3_8_.jpeg",
 			widthST: 8.0,
 			lengthST: 3.0,
 			widthKR: 8.0,
@@ -78,7 +78,7 @@ const variants = {
 			priceTotal: 118700,
 		},
 		"3x10": {
-			img: "./images/single/3_10 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild3334-3964-4265-a364-313164363430/3_10_.jpeg",
 			widthST: 10.0,
 			lengthST: 3.0,
 			widthKR: 10.5,
@@ -92,7 +92,7 @@ const variants = {
 			priceTotal: 136400,
 		},
 		"3x12": {
-			img: "./images/single/3_12 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild6135-6533-4331-b738-386135633666/3_12_.jpeg",
 			widthST: 12,
 			lengthST: 3.0,
 			widthKR: 12.6,
@@ -106,7 +106,7 @@ const variants = {
 			priceTotal: 159500,
 		},
 		"3.5x2": {
-			img: "./images/single/3,5_2 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild3463-3266-4135-a265-386162323965/35_2_.jpeg",
 			widthST: 2,
 			lengthST: 3.5,
 			widthKR: 2.1,
@@ -120,7 +120,7 @@ const variants = {
 			priceTotal: 58200,
 		},
 		"3.5x4": {
-			img: "./images/single/3,5_4 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild6566-3832-4533-b931-373562343837/35_4_.jpeg",
 			widthST: 4.0,
 			lengthST: 3.5,
 			widthKR: 4.0,
@@ -134,7 +134,7 @@ const variants = {
 			priceTotal: 78000,
 		},
 		"3.5x6": {
-			img: "./images/single/3,5_6 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild6661-6330-4930-b264-323930363239/35_6_.jpeg",
 			widthST: 6.0,
 			lengthST: 3.5,
 			widthKR: 6.3,
@@ -148,7 +148,7 @@ const variants = {
 			priceTotal: 99700,
 		},
 		"3.5x8": {
-			img: "./images/single/3,5_8 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild3935-6637-4132-b461-303966333730/35_8_.jpeg",
 			widthST: 8.0,
 			lengthST: 3.5,
 			widthKR: 8.5,
@@ -162,7 +162,7 @@ const variants = {
 			priceTotal: 124400,
 		},
 		"3.5x10": {
-			img: "./images/single/3,5_10 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild3163-3039-4130-b163-356532373264/35_10_.jpeg",
 			widthST: 10.0,
 			lengthST: 3.5,
 			widthKR: 10.6,
@@ -176,7 +176,7 @@ const variants = {
 			priceTotal: 147700,
 		},
 		"3.5x12": {
-			img: "./images/single/3,5_12 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild3032-3838-4636-b363-343636616539/35_12_.jpeg",
 			widthST: 12.0,
 			lengthST: 3.5,
 			widthKR: 12.6,
@@ -190,7 +190,7 @@ const variants = {
 			priceTotal: 171700,
 		},
 		"4x2": {
-			img: "./images/single/4_2 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild3337-3134-4665-a136-613030663730/4_2_.jpeg",
 			widthST: 2.0,
 			lengthST: 4.0,
 			widthKR: 2.1,
@@ -204,7 +204,7 @@ const variants = {
 			priceTotal: 63800,
 		},
 		"4x4": {
-			img: "./images/single/4_4 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild3865-3438-4731-a266-376339313937/4_4_.jpeg",
 			widthST: 4.0,
 			lengthST: 4.0,
 			widthKR: 4.2,
@@ -218,7 +218,7 @@ const variants = {
 			priceTotal: 81300,
 		},
 		"4x6": {
-			img: "./images/single/4_6 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild6662-6238-4063-b833-306537336266/4_6_.jpeg",
 			widthST: 6.0,
 			lengthST: 4.0,
 			widthKR: 6.3,
@@ -232,7 +232,7 @@ const variants = {
 			priceTotal: 108200,
 		},
 		"4x8": {
-			img: "./images/single/4_8 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild6231-3433-4532-b632-616638393132/4_8_.jpeg",
 			widthST: 8.0,
 			lengthST: 4.0,
 			widthKR: 8.5,
@@ -246,7 +246,7 @@ const variants = {
 			priceTotal: 135100,
 		},
 		"4x10": {
-			img: "./images/single/4_8 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild3935-3766-4331-b931-656362336335/4_10_.jpeg",
 			widthST: 10.0,
 			lengthST: 4.0,
 			widthKR: 10.6,
@@ -260,7 +260,7 @@ const variants = {
 			priceTotal: 160300,
 		},
 		"4x12": {
-			img: "./images/single/4_12 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild3866-3731-4335-a130-363038343561/4_12_.jpeg",
 			widthST: 12.0,
 			lengthST: 4.0,
 			widthKR: 12.6,
@@ -274,7 +274,7 @@ const variants = {
 			priceTotal: 186800,
 		},
 		"4.5x2": {
-			img: "./images/single/4,5_2 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild3530-3134-4536-a566-323634353236/45_2_.jpeg",
 			widthST: 2.0,
 			lengthST: 4.5,
 			widthKR: 2.1,
@@ -288,7 +288,7 @@ const variants = {
 			priceTotal: 71500,
 		},
 		"4.5x4": {
-			img: "./images/single/4,5_4 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild6466-3532-4737-b930-356339666563/45_4_.jpeg",
 			widthST: 4.0,
 			lengthST: 4.5,
 			widthKR: 4.2,
@@ -302,7 +302,7 @@ const variants = {
 			priceTotal: 93500,
 		},
 		"4.5x6": {
-			img: "./images/single/4,5_6 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild3738-3030-4733-b432-633462326139/45_6_.jpeg",
 			widthST: 6.0,
 			lengthST: 4.5,
 			widthKR: 6.3,
@@ -316,7 +316,7 @@ const variants = {
 			priceTotal: 115460,
 		},
 		"4.5x8": {
-			img: "./images/single/4,5_8 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild3934-3537-4136-b435-333863393533/45_8_.jpeg",
 			widthST: 8.0,
 			lengthST: 4.5,
 			widthKR: 8.5,
@@ -330,7 +330,7 @@ const variants = {
 			priceTotal: 145600,
 		},
 		"4.5x10": {
-			img: "./images/single/4,5_10 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild3364-3466-4538-b064-626636616433/45_10_.jpeg",
 			widthST: 10.0,
 			lengthST: 4.5,
 			widthKR: 10.0,
@@ -344,7 +344,7 @@ const variants = {
 			priceTotal: 172800,
 		},
 		"4.5x12": {
-			img: "./images/single/4,5_12 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild3930-6637-4061-a539-393738346664/45_12_.jpeg",
 			widthST: 12.0,
 			lengthST: 4.5,
 			widthKR: 12.6,
@@ -358,7 +358,7 @@ const variants = {
 			priceTotal: 199800,
 		},
 		"5x2": {
-			img: "./images/single/5_2 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild3061-3038-4235-b862-313836386631/5_2_.jpeg",
 			widthST: 2.0,
 			lengthST: 5.0,
 			widthKR: 2.1,
@@ -372,7 +372,7 @@ const variants = {
 			priceTotal: 74700,
 		},
 		"5x4": {
-			img: "./images/single/5_4 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild3635-6233-4665-b564-366234626461/5_4_.jpeg",
 			widthST: 4.0,
 			lengthST: 5.0,
 			widthKR: 4.2,
@@ -386,7 +386,7 @@ const variants = {
 			priceTotal: 100800,
 		},
 		"5x6": {
-			img: "./images/single/5_6 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild6138-6235-4438-a364-383034306263/5_6_.jpeg",
 			widthST: 6.0,
 			lengthST: 5.0,
 			widthKR: 6.3,
@@ -400,7 +400,7 @@ const variants = {
 			priceTotal: 128300,
 		},
 		"5x8": {
-			img: "./images/single/5_8 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild3661-3638-4530-a239-353738373364/5_8_.jpeg",
 			widthST: 8.0,
 			lengthST: 5.0,
 			widthKR: 8.5,
@@ -414,7 +414,7 @@ const variants = {
 			priceTotal: 161500,
 		},
 		"5x10": {
-			img: "./images/single/5_10 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild6534-3535-4539-b233-623639353133/5_10_.jpeg",
 			widthST: 10.0,
 			lengthST: 5.0,
 			widthKR: 10.6,
@@ -428,7 +428,7 @@ const variants = {
 			priceTotal: 192700,
 		},
 		"5x12": {
-			img: "./images/single/5_12 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild3037-3864-4839-a436-303635613138/5_12_.jpeg",
 			widthST: 12.0,
 			lengthST: 5.0,
 			widthKR: 12.6,
@@ -442,7 +442,7 @@ const variants = {
 			priceTotal: 223700,
 		},
 		"5.5x2": {
-			img: "./images/single/5,5_2 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild6233-3730-4737-b437-376265333130/55_2_.jpeg",
 			widthST: 2.0,
 			lengthST: 5.5,
 			widthKR: 2.1,
@@ -456,7 +456,7 @@ const variants = {
 			priceTotal: 82500,
 		},
 		"5.5x4": {
-			img: "./images/single/5,5_4 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild3435-6137-4037-b164-363263613061/55_4_.jpeg",
 			widthST: 4.0,
 			lengthST: 5.5,
 			widthKR: 4.2,
@@ -470,7 +470,7 @@ const variants = {
 			priceTotal: 109600,
 		},
 		"5.5x6": {
-			img: "./images/single/5,5_6 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild6137-3362-4562-a638-323765646235/55_6_.jpeg",
 			widthST: 6.0,
 			lengthST: 5.5,
 			widthKR: 6.3,
@@ -484,7 +484,7 @@ const variants = {
 			priceTotal: 137900,
 		},
 		"5.5x8": {
-			img: "./images/single/5,5_8 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild6461-6361-4236-b938-616338653631/55_8_.jpeg",
 			widthST: 8.0,
 			lengthST: 5.5,
 			widthKR: 8.5,
@@ -498,7 +498,7 @@ const variants = {
 			priceTotal: 173100,
 		},
 		"5.5x10": {
-			img: "./images/single/5,5_10 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild3136-3730-4239-a239-316333393938/55_10_.jpeg",
 			widthST: 10.0,
 			lengthST: 5.5,
 			widthKR: 10.6,
@@ -512,7 +512,7 @@ const variants = {
 			priceTotal: 205100,
 		},
 		"5.5x12": {
-			img: "./images/single/5,5_12 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild3133-3035-4566-b438-623465363331/55_12_.jpeg",
 			widthST: 12.0,
 			lengthST: 5.5,
 			widthKR: 12.6,
@@ -526,7 +526,7 @@ const variants = {
 			priceTotal: 238300,
 		},
 		"6x2": {
-			img: "./images/single/6_2 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild6230-3862-4330-b035-343166633734/6_2_.jpeg",
 			widthST: 2.0,
 			lengthST: 6,
 			widthKR: 2.1,
@@ -540,7 +540,7 @@ const variants = {
 			priceTotal: 94700,
 		},
 		"6x4": {
-			img: "./images/single/6_4 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild6339-3331-4938-b865-626337343832/6_4_.jpeg",
 			widthST: 4.0,
 			lengthST: 6,
 			widthKR: 4.2,
@@ -554,7 +554,7 @@ const variants = {
 			priceTotal: 121400,
 		},
 		"6x6": {
-			img: "./images/single/6_6 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild3466-3835-4136-a238-663164363263/6_6_.jpeg",
 			widthST: 6.0,
 			lengthST: 6,
 			widthKR: 6.3,
@@ -568,7 +568,7 @@ const variants = {
 			priceTotal: 150900,
 		},
 		"6x8": {
-			img: "./images/single/6_8 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild3034-3861-4933-a539-366462643461/6_8_.jpeg",
 			widthST: 6.0,
 			lengthST: 8.5,
 			widthKR: 6.5,
@@ -582,7 +582,7 @@ const variants = {
 			priceTotal: 185900,
 		},
 		"6x10": {
-			img: "./images/single/6_10 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild3937-6663-4132-a130-353333353437/6_10_.jpeg",
 			widthST: 6.0,
 			lengthST: 10.0,
 			widthKR: 6.5,
@@ -596,7 +596,7 @@ const variants = {
 			priceTotal: 219700,
 		},
 		"6x12": {
-			img: "./images/single/6_12 односкат.jpeg",
+			img: "https://static.tildacdn.com/tild3162-3139-4962-b764-376535653263/6_12_.jpeg",
 			widthST: 6.0,
 			lengthST: 12.0,
 			widthKR: 6.5,
@@ -612,7 +612,7 @@ const variants = {
 	},
 	double: {
 		"3x2": {
-			img: "./images/double/3_2 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild6630-6330-4461-b737-353532343364/3_2_.jpeg",
 			widthST: 2.0,
 			lengthST: 3.0,
 			widthKR: 2.1,
@@ -626,7 +626,7 @@ const variants = {
 			priceTotal: 55700,
 		},
 		"3x4": {
-			img: "./images/double/3_4 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild3134-3237-4439-a438-366130303335/3_4_.jpeg",
 			widthST: 4.0,
 			lengthST: 3.0,
 			widthKR: 4.2,
@@ -640,7 +640,7 @@ const variants = {
 			priceTotal: 73400,
 		},
 		"3x6": {
-			img: "./images/double/3_6 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild3038-6632-4236-b437-313264616631/3_6_.jpeg",
 			widthST: 6.0,
 			lengthST: 3.0,
 			widthKR: 6.3,
@@ -654,7 +654,7 @@ const variants = {
 			priceTotal: 91100,
 		},
 		"3x8": {
-			img: "./images/double/3_8 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild3436-6566-4738-a439-303931383034/3_8_.jpeg",
 			widthST: 8.0,
 			lengthST: 3.0,
 			widthKR: 8.0,
@@ -668,7 +668,7 @@ const variants = {
 			priceTotal: 118700,
 		},
 		"3x10": {
-			img: "./images/double/3_10 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild3839-3131-4263-a339-383939313430/3_10_.jpeg",
 			widthST: 10.0,
 			lengthST: 3.0,
 			widthKR: 10.5,
@@ -682,7 +682,7 @@ const variants = {
 			priceTotal: 136400,
 		},
 		"3x12": {
-			img: "./images/double/3_12 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild3066-3730-4164-b766-303764633531/3_12_.jpeg",
 			widthST: 12,
 			lengthST: 3.0,
 			widthKR: 12.6,
@@ -696,7 +696,7 @@ const variants = {
 			priceTotal: 159500,
 		},
 		"3.5x2": {
-			img: "./images/double/3,5_2 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild3630-6638-4132-b263-333530356366/35_2_.jpeg",
 			widthST: 2,
 			lengthST: 3.5,
 			widthKR: 2.1,
@@ -710,7 +710,7 @@ const variants = {
 			priceTotal: 58200,
 		},
 		"3.5x4": {
-			img: "./images/double/3,5_4 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild6138-3964-4933-a532-643038653435/35_4_.jpeg",
 			widthST: 4.0,
 			lengthST: 3.5,
 			widthKR: 4.0,
@@ -724,7 +724,7 @@ const variants = {
 			priceTotal: 78000,
 		},
 		"3.5x6": {
-			img: "./images/double/3,5_6 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild3930-3836-4132-b136-663064363430/35_6_.jpeg",
 			widthST: 6.0,
 			lengthST: 3.5,
 			widthKR: 6.3,
@@ -738,7 +738,7 @@ const variants = {
 			priceTotal: 99700,
 		},
 		"3.5x8": {
-			img: "./images/double/3,5_8 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild3939-3364-4361-b662-623735313436/35_8_.jpeg",
 			widthST: 8.0,
 			lengthST: 3.5,
 			widthKR: 8.5,
@@ -752,7 +752,7 @@ const variants = {
 			priceTotal: 124400,
 		},
 		"3.5x10": {
-			img: "./images/double/3,5_10 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild3238-3736-4063-b435-313464623064/35_10_.jpeg",
 			widthST: 10.0,
 			lengthST: 3.5,
 			widthKR: 10.6,
@@ -766,7 +766,7 @@ const variants = {
 			priceTotal: 147700,
 		},
 		"3.5x12": {
-			img: "./images/double/3,5_12 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild6630-3431-4933-b530-373764613436/35_12_.jpeg",
 			widthST: 12.0,
 			lengthST: 3.5,
 			widthKR: 12.6,
@@ -780,7 +780,7 @@ const variants = {
 			priceTotal: 171700,
 		},
 		"4x2": {
-			img: "./images/double/4_2 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild3236-6331-4230-b130-303638373161/4_2_.jpeg",
 			widthST: 2.0,
 			lengthST: 4.0,
 			widthKR: 2.1,
@@ -794,7 +794,7 @@ const variants = {
 			priceTotal: 63800,
 		},
 		"4x4": {
-			img: "./images/double/4_4 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild6538-6465-4661-b132-363538636438/4_4_.jpeg",
 			widthST: 4.0,
 			lengthST: 4.0,
 			widthKR: 4.2,
@@ -808,7 +808,7 @@ const variants = {
 			priceTotal: 81300,
 		},
 		"4x6": {
-			img: "./images/double/4_6 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild3465-3336-4738-b430-653935613863/4_6_.jpeg",
 			widthST: 6.0,
 			lengthST: 4.0,
 			widthKR: 6.3,
@@ -822,7 +822,7 @@ const variants = {
 			priceTotal: 108200,
 		},
 		"4x8": {
-			img: "./images/double/4_8 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild3439-3838-4264-b265-306263666332/4_8_.jpeg",
 			widthST: 8.0,
 			lengthST: 4.0,
 			widthKR: 8.5,
@@ -836,7 +836,7 @@ const variants = {
 			priceTotal: 135100,
 		},
 		"4x10": {
-			img: "./images/double/4_8 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild6566-3534-4136-b563-663764633730/4_10_.jpeg",
 			widthST: 10.0,
 			lengthST: 4.0,
 			widthKR: 10.6,
@@ -850,7 +850,7 @@ const variants = {
 			priceTotal: 160300,
 		},
 		"4x12": {
-			img: "./images/double/4_12 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild3964-6461-4565-a363-633837343531/4_12_.jpeg",
 			widthST: 12.0,
 			lengthST: 4.0,
 			widthKR: 12.6,
@@ -864,7 +864,7 @@ const variants = {
 			priceTotal: 186800,
 		},
 		"4.5x2": {
-			img: "./images/double/4,5_2 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild6266-3131-4963-b933-383564663136/45_2_.jpeg",
 			widthST: 2.0,
 			lengthST: 4.5,
 			widthKR: 2.1,
@@ -878,7 +878,7 @@ const variants = {
 			priceTotal: 71500,
 		},
 		"4.5x4": {
-			img: "./images/double/4,5_4 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild3735-3862-4530-b962-633031363338/45_4_.jpeg",
 			widthST: 4.0,
 			lengthST: 4.5,
 			widthKR: 4.2,
@@ -892,7 +892,7 @@ const variants = {
 			priceTotal: 93500,
 		},
 		"4.5x6": {
-			img: "./images/double/4,5_6 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild3233-3663-4164-a430-343537306238/45_6_.jpeg",
 			widthST: 6.0,
 			lengthST: 4.5,
 			widthKR: 6.3,
@@ -906,7 +906,7 @@ const variants = {
 			priceTotal: 115460,
 		},
 		"4.5x8": {
-			img: "./images/double/4,5_8 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild6233-3630-4536-b733-313932653531/45_8_.jpeg",
 			widthST: 8.0,
 			lengthST: 4.5,
 			widthKR: 8.5,
@@ -920,7 +920,7 @@ const variants = {
 			priceTotal: 145600,
 		},
 		"4.5x10": {
-			img: "./images/double/4,5_10 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild3538-6439-4433-b835-656164643663/45_10_.jpeg",
 			widthST: 10.0,
 			lengthST: 4.5,
 			widthKR: 10.0,
@@ -934,7 +934,7 @@ const variants = {
 			priceTotal: 172800,
 		},
 		"4.5x12": {
-			img: "./images/double/4,5_12 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild3735-6438-4839-a662-616332383134/45_12_.jpeg",
 			widthST: 12.0,
 			lengthST: 4.5,
 			widthKR: 12.6,
@@ -948,7 +948,7 @@ const variants = {
 			priceTotal: 199800,
 		},
 		"5x2": {
-			img: "./images/double/5_2 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild6461-3338-4338-a331-303932323265/5_2_.jpeg",
 			widthST: 2.0,
 			lengthST: 5.0,
 			widthKR: 2.1,
@@ -962,7 +962,7 @@ const variants = {
 			priceTotal: 74700,
 		},
 		"5x4": {
-			img: "./images/double/5_4 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild3730-6632-4162-b766-363738326638/5_4_.jpeg",
 			widthST: 4.0,
 			lengthST: 5.0,
 			widthKR: 4.2,
@@ -976,7 +976,7 @@ const variants = {
 			priceTotal: 100800,
 		},
 		"5x6": {
-			img: "./images/double/5_6 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild6232-3934-4135-a230-383132303235/5_6_.jpeg",
 			widthST: 6.0,
 			lengthST: 5.0,
 			widthKR: 6.3,
@@ -990,7 +990,7 @@ const variants = {
 			priceTotal: 128300,
 		},
 		"5x8": {
-			img: "./images/double/5_8 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild3937-3135-4931-b136-643339393763/5_8_.jpeg",
 			widthST: 8.0,
 			lengthST: 5.0,
 			widthKR: 8.5,
@@ -1004,7 +1004,7 @@ const variants = {
 			priceTotal: 161500,
 		},
 		"5x10": {
-			img: "./images/double/5_10 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild3565-3937-4637-b138-326533396230/5_10_.jpeg",
 			widthST: 10.0,
 			lengthST: 5.0,
 			widthKR: 10.6,
@@ -1018,7 +1018,7 @@ const variants = {
 			priceTotal: 192700,
 		},
 		"5x12": {
-			img: "./images/double/5_12 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild6235-3037-4336-a233-616363383564/5_12_.jpeg",
 			widthST: 12.0,
 			lengthST: 5.0,
 			widthKR: 12.6,
@@ -1032,7 +1032,7 @@ const variants = {
 			priceTotal: 223700,
 		},
 		"5.5x2": {
-			img: "./images/double/5,5_2 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild6335-3438-4134-b661-623766633739/55_2_.jpeg",
 			widthST: 2.0,
 			lengthST: 5.5,
 			widthKR: 2.1,
@@ -1046,7 +1046,7 @@ const variants = {
 			priceTotal: 82500,
 		},
 		"5.5x4": {
-			img: "./images/double/5,5_4 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild3466-6634-4337-b433-376236353034/55_4_.jpeg",
 			widthST: 4.0,
 			lengthST: 5.5,
 			widthKR: 4.2,
@@ -1060,7 +1060,7 @@ const variants = {
 			priceTotal: 109600,
 		},
 		"5.5x6": {
-			img: "./images/double/5,5_6 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild6533-6638-4161-a662-303130613663/55_6_.jpeg",
 			widthST: 6.0,
 			lengthST: 5.5,
 			widthKR: 6.3,
@@ -1074,7 +1074,7 @@ const variants = {
 			priceTotal: 137900,
 		},
 		"5.5x8": {
-			img: "./images/double/5,5_8 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild6538-3131-4435-b236-363638633938/55_8_.jpeg",
 			widthST: 8.0,
 			lengthST: 5.5,
 			widthKR: 8.5,
@@ -1088,7 +1088,7 @@ const variants = {
 			priceTotal: 173100,
 		},
 		"5.5x10": {
-			img: "./images/double/5,5_10 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild3336-6230-4433-b031-666233396339/55_10_.jpeg",
 			widthST: 10.0,
 			lengthST: 5.5,
 			widthKR: 10.6,
@@ -1102,7 +1102,7 @@ const variants = {
 			priceTotal: 205100,
 		},
 		"5.5x12": {
-			img: "./images/double/5,5_12 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild3532-3865-4664-a530-333038656334/55_12_.jpeg",
 			widthST: 12.0,
 			lengthST: 5.5,
 			widthKR: 12.6,
@@ -1116,7 +1116,7 @@ const variants = {
 			priceTotal: 238300,
 		},
 		"6x2": {
-			img: "./images/double/6_2 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild6538-3939-4536-a330-306664663637/6_2_.jpeg",
 			widthST: 2.0,
 			lengthST: 6,
 			widthKR: 2.1,
@@ -1130,7 +1130,7 @@ const variants = {
 			priceTotal: 94700,
 		},
 		"6x4": {
-			img: "./images/double/6_4 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild6432-3639-4233-a165-663936616538/6_4_.jpeg",
 			widthST: 4.0,
 			lengthST: 6,
 			widthKR: 4.2,
@@ -1144,7 +1144,7 @@ const variants = {
 			priceTotal: 121400,
 		},
 		"6x6": {
-			img: "./images/double/6_6 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild3436-3165-4639-b934-366632393532/6_6_.jpeg",
 			widthST: 6.0,
 			lengthST: 6,
 			widthKR: 6.3,
@@ -1158,7 +1158,7 @@ const variants = {
 			priceTotal: 150900,
 		},
 		"6x8": {
-			img: "./images/double/6_8 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild3538-6166-4239-a232-366132343834/6_8_.jpeg",
 			widthST: 6.0,
 			lengthST: 8.5,
 			widthKR: 6.5,
@@ -1172,7 +1172,7 @@ const variants = {
 			priceTotal: 185900,
 		},
 		"6x10": {
-			img: "./images/double/6_10 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild3337-6334-4735-a362-396666653531/6_10_.jpeg",
 			widthST: 6.0,
 			lengthST: 10.0,
 			widthKR: 6.5,
@@ -1186,7 +1186,7 @@ const variants = {
 			priceTotal: 219700,
 		},
 		"6x12": {
-			img: "./images/double/6_12 двускат.jpeg",
+			img: "https://static.tildacdn.com/tild3839-3931-4232-b334-333039383961/6_12_.jpeg",
 			widthST: 6.0,
 			lengthST: 12.0,
 			widthKR: 6.5,
@@ -1204,18 +1204,30 @@ const variants = {
 
 optionsContainers.forEach((container) => {
 	const priceText = container.querySelector(".calculator__option-price");
-	const price = Number(priceText.dataSet);
+	const price = Number(priceText.dataset.price);
 	const minusButton = container.querySelector(".minus");
 	const quantityText = container.querySelector(".quantity");
 	const plusButton = container.querySelector(".plus");
+	const optionName = container.querySelector(".calculator__option-name");
 
 	minusButton.addEventListener("click", () => {
-		if (quantityText.textContent > 0) {
+		if (Number(quantityText.textContent) > 0) {
+			minusButton.style.pointerEvents = "none";
 			quantityText.textContent = Number(quantityText.textContent) - 1;
+			decrementCartItem(optionName.textContent, quantityText);
+
+			setTimeout(() => {
+				minusButton.style.pointerEvents = "auto";
+			}, 3000);
 		}
 	});
+
 	plusButton.addEventListener("click", () => {
-		quantityText.textContent = Number(quantityText.textContent) + 1;
+		const cartIcon = document.querySelector(".t706__carticon");
+		const cartContainer = document.querySelector(".t706__cartwin");
+		const cartCloseIco = cartContainer.querySelector(".t706__cartwin-close");
+
+		incrementCartItem(plusButton, minusButton, cartIcon, cartContainer, cartCloseIco, quantityText, optionName.textContent);
 	});
 });
 
@@ -1260,10 +1272,44 @@ function calculator() {
 
 calculator();
 
-// function setCartItems() {
-// 	if(localStorage.getItem("tcart")) {
-// 		customCartCounter.forEach(cart => {
-// 			cart.firstElementChild.textContent = JSON.parse(localStorage.getItem("tcart")).total;
-// 		})
-// 	}
-// }
+function incrementCartItem(plusButton, minusButton, cartIcon, cartContainer, cartCloseIco, quantityText, optionName) {
+	quantityText.textContent = Number(quantityText.textContent) + 1;
+	plusButton.style.pointerEvents = "none";
+
+	cartContainer.classList.add("hiddenCart");
+	setTimeout(() => {
+		cartIcon.click();
+		cartCloseIco.click();
+		setTimeout(() => {
+			cartContainer.classList.remove("hiddenCart");
+			plusButton.style.pointerEvents = "auto";
+		}, 500);
+		setTimeout(() => {
+			if (cartContainer.querySelector(".t706__cartpage-products_empty")) {
+				decrementCartItem(optionName, quantityText);
+				plusButton.click();
+			}
+		}, 500);
+	}, 500);
+}
+
+function decrementCartItem(optionName, quantityText) {
+	const cartProductsContainer = document.querySelector(".t706__cartwin-products");
+	const cartProductList = cartProductsContainer.querySelectorAll(".t706__product");
+	if (cartProductList.length === 0) {
+		quantityText.textContent = 0;
+	}
+	cartProductList.forEach((product) => {
+		const productName = product.querySelector(".t706__product-title").querySelector("a").textContent;
+		if (productName === optionName) {
+			product.querySelector(".t706__product-minus").addEventListener("click", () => {
+				quantityText.textContent = product.querySelector(".t706__product-quantity").textContent;
+			});
+			product.querySelector(".t706__product-minus").click();
+		}
+	});
+	const deletedItem = cartProductsContainer.querySelector(".t706__product-deleted");
+	if (deletedItem) {
+		deletedItem.remove();
+	}
+}
