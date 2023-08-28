@@ -18,6 +18,9 @@ const exampleImage = document.querySelector("#example-image");
 const submitButton = document.querySelector(".calculator__button");
 const inputsAll = document.querySelectorAll(".input");
 const optionsContainers = document.querySelectorAll(".calculator__option-wrapper");
+const additionalServicesContainer = document.querySelector(".calculator__options-container");
+const h3title = document.querySelector(".calculator__h3-title");
+const cartContainer = document.querySelector(".t706__cartwin");
 
 const variants = {
 	single: {
@@ -1209,10 +1212,12 @@ optionsContainers.forEach((container) => {
 	const quantityText = container.querySelector(".quantity");
 	const plusButton = container.querySelector(".plus");
 	const optionName = container.querySelector(".calculator__option-name");
+	const optionId = container.id;
 
 	minusButton.addEventListener("click", () => {
 		if (Number(quantityText.textContent) > 0) {
 			minusButton.style.pointerEvents = "none";
+			removeFromTotal(optionName.textContent, price, quantityText.textContent);
 			quantityText.textContent = Number(quantityText.textContent) - 1;
 			decrementCartItem(optionName.textContent, quantityText);
 
@@ -1224,10 +1229,10 @@ optionsContainers.forEach((container) => {
 
 	plusButton.addEventListener("click", () => {
 		const cartIcon = document.querySelector(".t706__carticon");
-		const cartContainer = document.querySelector(".t706__cartwin");
 		const cartCloseIco = cartContainer.querySelector(".t706__cartwin-close");
 
 		incrementCartItem(plusButton, minusButton, cartIcon, cartContainer, cartCloseIco, quantityText, optionName.textContent);
+		addToTotal(optionName.textContent, price, optionId);
 	});
 });
 
@@ -1235,11 +1240,15 @@ inputsAll.forEach((input) => {
 	input.addEventListener("change", calculator);
 });
 
+cartContainer.addEventListener("click", checkCartList);
+
 inputWidth.value = 3;
 inputLength.value = 2;
 
 function calculator() {
+	const allAddedOptionsPrices = additionalServicesContainer.querySelectorAll(".calculator__price");
 	let radio, type, typeName;
+	let totalPriceValue = 0;
 
 	if (radioSingle.checked) {
 		radio = "single";
@@ -1255,18 +1264,38 @@ function calculator() {
 	const neededObj = type[`${result}`];
 	const resultName = `Навес ${typeName} ${result}`;
 
+	if (radioDouble.checked) {
+		h3title.textContent = `Навес №${Number(Object.keys(variants.single).indexOf(result)) + 1}`;
+	} else {
+		h3title.textContent = `Навес №${Number(Object.keys(variants.single).indexOf(result)) + 1}`;
+	}
+
 	parameterWidth.textContent = `${neededObj.widthST} м`;
 	parameterWidth2.textContent = `${neededObj.widthKR} м`;
 	parameterLength.textContent = `${neededObj.lengthST} м`;
 	parameterLength2.textContent = `${neededObj.lengthKR} м`;
 	parameterSquare.textContent = `${neededObj.square} м`;
+	priceKarkas.dataset.price = neededObj.priceKarkas;
 	priceKarkas.textContent = `${neededObj.priceKarkas} руб.`;
+	pricePolycarbonate.dataset.price = neededObj.pricePolycarbonate;
 	pricePolycarbonate.textContent = `${neededObj.pricePolycarbonate} руб.`;
+	priceSklad.dataset.price = neededObj.priceSklad;
 	priceSklad.textContent = `${neededObj.priceSklad} руб.`;
+	priceMontage.dataset.price = neededObj.priceMontage;
 	priceMontage.textContent = `${neededObj.priceMontage} руб.`;
+	priceDelivery.dataset.price = neededObj.priceDelivery;
 	priceDelivery.textContent = `${neededObj.priceDelivery} руб.`;
-	priceTotal.textContent = `${neededObj.priceTotal} руб.`;
 	exampleImage.src = neededObj.img;
+
+	allAddedOptionsPrices.forEach((price) => {
+		if (price.textContent !== "бесплатно") {
+			totalPriceValue = Number(totalPriceValue) + Number(price.dataset.price);
+		}
+	});
+
+	priceTotal.textContent = `${totalPriceValue} руб.`;
+	priceTotal.dataset.price = totalPriceValue;
+
 	submitButton.href = `#order:${resultName}=${neededObj.priceTotal}`;
 }
 
@@ -1302,9 +1331,6 @@ function decrementCartItem(optionName, quantityText) {
 	cartProductList.forEach((product) => {
 		const productName = product.querySelector(".t706__product-title").querySelector("a").textContent;
 		if (productName === optionName) {
-			product.querySelector(".t706__product-minus").addEventListener("click", () => {
-				quantityText.textContent = product.querySelector(".t706__product-quantity").textContent;
-			});
 			product.querySelector(".t706__product-minus").click();
 		}
 	});
@@ -1312,4 +1338,77 @@ function decrementCartItem(optionName, quantityText) {
 	if (deletedItem) {
 		deletedItem.remove();
 	}
+}
+
+function addToTotal(optionName, price, optionId) {
+	const allAddedOptions = additionalServicesContainer.querySelectorAll(".calculator__price-wrapper");
+	let added = false;
+	allAddedOptions.forEach((option) => {
+		if (option.id === optionId) {
+			const currentPrice = option.querySelector(".calculator__price");
+			currentPrice.textContent = `${Number(currentPrice.dataset.price) + price} руб.`;
+			added = true;
+		}
+	});
+	if (!added) {
+		const optionLayout = `<div class="calculator__price-wrapper added-option" id=${optionId}>
+		<div class="calculator__price-value">
+			<p class="calculator__price-title">${optionName}</p>
+			<p class="calculator__price" data-price="${price}">${price} руб.</p>
+		</div>
+	</div>`;
+		additionalServicesContainer.insertAdjacentHTML("beforeend", optionLayout);
+	}
+	priceTotal.textContent = `${Number(priceTotal.dataset.price) + price} руб.`;
+	priceTotal.dataset.price = Number(priceTotal.dataset.price) + price;
+}
+
+function removeFromTotal(optionName, price, quantity) {
+	const allAddedOptions = additionalServicesContainer.querySelectorAll(".calculator__price-wrapper");
+	allAddedOptions.forEach((option) => {
+		const currentName = option.querySelector(".calculator__price-title").textContent;
+		const currentPrice = option.querySelector(".calculator__price");
+		if (currentName === optionName) {
+			if (Number(quantity) > 1) {
+				currentPrice.textContent = `${price * quantity - price} руб.`;
+			} else {
+				option.remove();
+			}
+			priceTotal.textContent = `${Number(priceTotal.dataset.price) - price} руб.`;
+			priceTotal.dataset.price = Number(priceTotal.dataset.price) - price;
+		}
+	});
+}
+
+function checkCartList(event) {
+	const cartProductsContainer = cartContainer.querySelector(".t706__cartwin-products");
+	const cartProductList = cartProductsContainer.querySelectorAll(".t706__product");
+	if (cartProductList.length === 0) {
+		const allAddedOptions = document.querySelectorAll(".added-option");
+		allAddedOptions.forEach((option) => {
+			option.remove();
+		});
+		optionsContainers.forEach((container) => {
+			const quantityText = container.querySelector(".quantity");
+			quantityText.textContent = 0;
+		});
+		return;
+	}
+	cartProductList.forEach((product) => {
+		const productName = product.querySelector(".t706__product-title").querySelector("a").textContent;
+
+		optionsContainers.forEach((container) => {
+			const quantityText = container.querySelector(".quantity");
+			const optionName = container.querySelector(".calculator__option-name");
+			const priceText = container.querySelector(".calculator__option-price");
+			const price = Number(priceText.dataset.price);
+
+			if (productName === optionName.textContent) {
+				if (event.target === product.querySelector(".t706__product-minus").querySelector("img")) {
+					removeFromTotal(optionName.textContent, price, quantityText.textContent);
+				}
+				quantityText.textContent = product.querySelector(".t706__product-quantity").textContent;
+			}
+		});
+	});
 }

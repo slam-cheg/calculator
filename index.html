@@ -141,41 +141,43 @@
 						</div>
 						<div class="calculator__prices-right">
 							<h3 class="calculator__h3-title">Стоимость:</h3>
-							<div class="calculator__price-wrapper">
-								<div class="calculator__price-value">
-									<p class="calculator__price-title">Стоимость каркаса</p>
-									<p class="calculator__price" id="karkas"><span>2000</span> руб.</p>
+							<div class="calculator__options-container">
+								<div class="calculator__price-wrapper">
+									<div class="calculator__price-value">
+										<p class="calculator__price-title">Стоимость каркаса</p>
+										<p class="calculator__price" id="karkas"><span>2000</span> руб.</p>
+									</div>
 								</div>
-							</div>
-							<div class="calculator__price-wrapper">
-								<div class="calculator__price-value">
-									<p class="calculator__price-title">Стоимость поликарбоната</p>
-									<p class="calculator__price" id="polycarbonate"><span>2000</span> руб.</p>
+								<div class="calculator__price-wrapper">
+									<div class="calculator__price-value">
+										<p class="calculator__price-title">Стоимость поликарбоната</p>
+										<p class="calculator__price" id="polycarbonate"><span>2000</span> руб.</p>
+									</div>
+									<p class="calculator__price-description">с комплектующими</p>
 								</div>
-								<p class="calculator__price-description">с комплектующими</p>
-							</div>
-							<div class="calculator__price-wrapper">
-								<div class="calculator__price-value">
-									<p class="calculator__price-title">Стоимость навеса на складе</p>
-									<p class="calculator__price" id="price-sklad"><span>2000</span> руб.</p>
+								<div class="calculator__price-wrapper">
+									<div class="calculator__price-value">
+										<p class="calculator__price-title">Стоимость навеса на складе</p>
+										<p class="calculator__price" id="price-sklad"><span>2000</span> руб.</p>
+									</div>
 								</div>
-							</div>
-							<div class="calculator__price-wrapper">
-								<div class="calculator__price-value">
-									<p class="calculator__price-title">Монтаж</p>
-									<p class="calculator__price" id="montage"><span>2000</span> руб.</p>
+								<div class="calculator__price-wrapper">
+									<div class="calculator__price-value">
+										<p class="calculator__price-title">Монтаж</p>
+										<p class="calculator__price" id="montage"><span>2000</span> руб.</p>
+									</div>
 								</div>
-							</div>
-							<div class="calculator__price-wrapper">
-								<div class="calculator__price-value">
-									<p class="calculator__price-title">Доставка в пределах МКАД</p>
-									<p class="calculator__price" id="delivery"><span>2000</span> руб.</p>
+								<div class="calculator__price-wrapper">
+									<div class="calculator__price-value">
+										<p class="calculator__price-title">Доставка в пределах МКАД</p>
+										<p class="calculator__price" id="delivery"><span>2000</span> руб.</p>
+									</div>
 								</div>
-							</div>
-							<div class="calculator__price-wrapper calculator__price-wrapper_margin">
-								<div class="calculator__price-value">
-									<p class="calculator__price-title">Монтаж пятки</p>
-									<p class="calculator__price">бесплатно</p>
+								<div class="calculator__price-wrapper">
+									<div class="calculator__price-value">
+										<p class="calculator__price-title">Монтаж пятки</p>
+										<p class="calculator__price">бесплатно</p>
+									</div>
 								</div>
 							</div>
 							<span class="calculator__price-separator"></span>
@@ -197,7 +199,7 @@
 					<div class="calculator__options">
 						<div class="calculator-option">
 							<p class="calculator__option-title">Крепление навеса к&nbsp;основанию</p>
-							<div class="calculator__option-wrapper">
+							<div class="calculator__option-wrapper"  id="betonirovanie">
 								<div class="calculator__option-left">
 									<p class="calculator__option-name">Бетонирование стоек</p>
 									<p class="calculator__option-description">бурение отверстий на&nbsp;глубину 1,2м</p>
@@ -207,11 +209,11 @@
 									<div class="calculator__option-quantity">
 										<button class="minus">-</button>
 										<p class="quantity">0</p>
-										<a href="order#:Бетонирование стоек=700" class="plus">+</a>
+										<a href="#order:Бетонирование стоек=700" class="plus">+</a>
 									</div>
 								</div>
 							</div>
-							<div class="calculator__option-wrapper">
+							<div class="calculator__option-wrapper" id="vintovye-svai">
 								<div class="calculator__option-left">
 									<p class="calculator__option-name">Винтовые сваи</p>
 									<p class="calculator__option-description">длина сваи 2-2,5м</p>
@@ -221,14 +223,14 @@
 									<div class="calculator__option-quantity">
 										<button class="minus">-</button>
 										<p class="quantity">0</p>
-										<button class="plus">+</button>
+										<a href="#order:Винтовые сваи=4300 class="plus">+</a>
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="calculator-option">
 							<p class="calculator__option-title">Дополнительные элементы навеса</p>
-							<div class="calculator__option-wrapper">
+							<div class="calculator__option-wrapper" id="snegozaderjanie">
 								<div class="calculator__option-left">
 									<p class="calculator__option-name">Снегозадержание с&nbsp;монтажом</p>
 									<p class="calculator__option-description">материал (фирма-производитель Тритон) с&nbsp;монтажом</p>
@@ -242,7 +244,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="calculator__option-wrapper">
+							<div class="calculator__option-wrapper" id="vodostok">
 								<div class="calculator__option-left">
 									<p class="calculator__option-name">Водосток с&nbsp;монтажом</p>
 									<p class="calculator__option-description">материал (фирма-производитель Тритон) с&nbsp;монтажом</p>
@@ -256,7 +258,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="calculator__option-wrapper">
+							<div class="calculator__option-wrapper" id="bokovaya-stenka">
 								<div class="calculator__option-left">
 									<p class="calculator__option-name">Боковая стенка с&nbsp;поликарбонатом 8мм</p>
 									<p class="calculator__option-description">сотовый поликарбонат, t=8мм</p>
@@ -273,7 +275,7 @@
 						</div>
 						<div class="calculator-option">
 							<p class="calculator__option-title">Доставка</p>
-							<div class="calculator__option-wrapper">
+							<div class="calculator__option-wrapper" id="dekivery-mkad-130">
 								<div class="calculator__option-left">
 									<p class="calculator__option-name">Доставка от МКАД (до 130 км)</p>
 								</div>
@@ -286,7 +288,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="calculator__option-wrapper">
+							<div class="calculator__option-wrapper" id="delivery-russia-sng">
 								<div class="calculator__option-left">
 									<p class="calculator__option-name">Доставка каркаса навеса по России и&nbsp;странам СНГ транспортной компанией</p>
 								</div>
@@ -302,7 +304,7 @@
 						</div>
 						<div class="calculator-option">
 							<p class="calculator__option-title">Замер</p>
-							<div class="calculator__option-wrapper">
+							<div class="calculator__option-wrapper" id="zamer-50km">
 								<div class="calculator__option-left">
 									<p class="calculator__option-name">Замер до 50 км от&nbsp;МКАД</p>
 								</div>
@@ -315,7 +317,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="calculator__option-wrapper">
+							<div class="calculator__option-wrapper" id="zamer-100km">
 								<div class="calculator__option-left">
 									<p class="calculator__option-name">Замер 50-100 км от&nbsp;МКАД</p>
 								</div>
@@ -328,7 +330,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="calculator__option-wrapper">
+							<div class="calculator__option-wrapper" id="zamer-150km">
 								<div class="calculator__option-left">
 									<p class="calculator__option-name">Замер до 150 км от&nbsp;МКАД</p>
 								</div>

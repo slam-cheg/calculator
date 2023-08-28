@@ -34,7 +34,7 @@
 }
 @media screen and (max-width: 479px) {
   .calculator__wrapper {
-    max-width: 300px;
+    max-width: 320px;
   }
 }
 
@@ -228,7 +228,7 @@
 @media screen and (max-width: 479px) {
   .calculator__prices {
     padding: 30px 10px;
-    width: 298px;
+    width: 100%;
   }
 }
 
